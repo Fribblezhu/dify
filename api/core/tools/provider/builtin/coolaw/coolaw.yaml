@@ -1,0 +1,14 @@
+identity:
+  author: Coolaw
+  name: coolaw
+  label:
+    en_US: Coolaw
+    zh_CL: 从法
+    pt_BR: Coolaw
+  description:
+    en_US: Coolaw
+    zh_CL: 从法
+    pt_BR: Coolaw
+  icon: icon.svg
+  tags:
+    - productivity

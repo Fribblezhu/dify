@@ -1,0 +1,27 @@
+identity:
+  name: get_file_base64
+  author: Coolaw
+  label:
+    en_US: GetFileBase64
+    zh_CL: 获取文件数据
+    pt_BR: GetFileBase64
+description:
+  human:
+    en_US: A tool for file to get file data and encode by base64
+    zh_CL: 一个用于获取文件数据的工具
+    pt_BR: A tool for file to get file data and encode by base64
+  llm: 一个用于获取文件数据的工具
+parameters:
+  - name: file_path
+    type: string
+    required: true
+    form: llm
+    label:
+      en_US: File Path
+      zh_CL: 文件路径（请直接在文件助手中复制）
+      pt_BR: File Path
+    human_description:
+      en_US: use for getting file base64
+      zh_CL: 用于获取文件base64编码流
+      pt_BR: used for getting file
+    llm_description: used for getting file

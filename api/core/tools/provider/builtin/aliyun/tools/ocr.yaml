@@ -1,0 +1,27 @@
+identity:
+  name: aliyun_ocr
+  author: Coolaw
+  label:
+    en_US: Aliyun OCR
+    zh_CL: 阿里云文字识别
+    pt_BR: Aliyun OCR
+description:
+  human:
+    en_US: A tool for ocr
+    zh_CL: 阿里云的ocr服务
+    pt_BR: A tool for ocr
+  llm: 阿里云的ocr服务
+parameters:
+  - name: image_url
+    type: string
+    required: true
+    form: llm
+    label:
+      en_US: image_url
+      zh_CL: 图片地址
+      pt_BR: image_url
+    human_description:
+      en_US: used for ocr
+      zh_CL: 用于文字识别
+      pt_BR: used for ocr
+    llm_description: used for ocr

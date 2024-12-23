@@ -46,7 +46,7 @@ export const defaultSystemFeatures: SystemFeatures = {
   is_allow_register: false,
   is_email_setup: false,
   license: {
-    status: LicenseStatus.NONE,
+    status: LicenseStatus.ACTIVE,
     expired_at: '',
   },
 }

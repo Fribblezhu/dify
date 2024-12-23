@@ -1,0 +1,27 @@
+identity:
+  name: audio_to_text
+  author: Coolaw
+  label:
+    en_US: AliAsr
+    zh_CL: 阿里语音识别(已经弃用了)
+    pt_BR: BingWebSearch
+description:
+  human:
+    en_US: A tool for performing a Bing SERP search and extracting snippets and webpages.Input should be a search query.
+    zh_CL: 一个用于执行语音识别的工具。
+    pt_BR: A tool for performing a Bing SERP search and extracting snippets and webpages.Input should be a search query.
+  llm: 一个用于执行语音识别的工具。
+parameters:
+  - name: file_link
+    type: string
+    required: true
+    form: llm
+    label:
+      en_US: File Address
+      zh_CL: 文件路径
+      pt_BR: File Address
+    human_description:
+      en_US: used for getting file
+      zh_CL: 用户获取文件
+      pt_BR: used for getting file
+    llm_description: used for getting file

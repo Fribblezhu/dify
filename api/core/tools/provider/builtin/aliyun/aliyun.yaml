@@ -1,0 +1,60 @@
+identity:
+  author: Coolaw
+  name: aliyun
+  label:
+    en_US: Aliyun
+    zh_CL: Aliyun
+    pt_BR: Aliyun
+  description:
+    en_US: Aliyun
+    zh_CL: 阿里云
+    pt_BR: Aliyun
+  icon: icon.svg
+  tags:
+    - productivity
+credentials_for_provider:
+  access_key_id:
+    type: text-input
+    required: true
+    label:
+      en_US:  Access Key ID
+      zh_CL:  Access Key ID
+      pt_BR: Access Key ID
+    help:
+      en_US: Please input your Access Key ID
+      zh_CL: 请输入你的 Access Key ID
+      pt_BR: Please input your Access Key ID
+    placeholder:
+      en_US: Please input your Access Key ID
+      zh_CL: 请输入你的 Access Key ID
+      pt_BR: Please input your Access Key ID
+  access_key_secret:
+    type: text-input
+    required: true
+    label:
+      en_US: Access Key Secret
+      zh_CL: Access Key Secret
+      pt_BR: Access Key Secret
+    help:
+      en_US: Please input your Access Key Secret
+      zh_CL: 请输入你的  Access Key Secret
+      pt_BR: Please input your Access Key Secret
+    placeholder:
+      en_US: Please input your Access Key Secret
+      zh_CL: 请输入你的 OpenAI Access Key Secret
+      pt_BR: Please input your Access Key Secret
+  app_key:
+    type: text-input
+    required: true
+    label:
+      en_US: App Key
+      zh_CL: App Key
+      pt_BR: App Key
+    help:
+      en_US: App Key
+      zh_CL: 请输入你的 App Key
+      pt_BR: App Key
+    placeholder:
+      en_US: Please input your App Key
+      zh_CL: 请输入你的 App Key
+      pt_BR: Please input your App Key
